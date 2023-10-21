@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
   int numGuesses = 0;
 
   printf("Guess-A-Number Game!\n");
-  printf("Enter a number between 1 and %d\n", n);
+  printf("Enter a number between 1 and %d\n");
 
   //TODO: place your code here
 
