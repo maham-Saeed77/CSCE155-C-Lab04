@@ -29,18 +29,11 @@ int main(int argc, char **argv) {
 
   printf("\nMade By : Maham Saeed\nreg no : SP23-BSE-083-2c\n\n");
 
-  printf(Guess-A-Number Game!\n\n"");
+  printf("Guess-A-Number Game!\n");
+  printf("Enter a number between 1 and %d\n", n);
 
-  int guess;
+  //TODO: place your code here
 
-
- while(1){
-
- printf("\n\nEnter a number between 1 and %d : " , n);
-
-  scanf("%d ,&guess");
-
-  if(guess==number){
-   printf("\n\ncongratulations, you found it! Number of guesses: %d\n" ,number);
-   break;
+  printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
+  return 0;
 }
