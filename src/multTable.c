@@ -16,12 +16,51 @@ int main(int argc, char **argv) {
   }
 
   int n = atoi(argv[1]);
+
   if(n <= 0) {
     printf("empty table!\n");
     exit(0);
   }
+else{
+  
+  // Made BY : Maham Seed
+          // DATE : 22/10/2023
+          // REG NO : SP23-BSE-083-2C 
 
-  //TODO: place your code here
+          printf("\n_______MULTIPLICATION TABLE_______\n\n\n");
+
+          printf("MADE BY : MAHAM SAEED\n\nREG NO : SP23-BSE-083-2C\n\n\n ");
+
+
+          printf("\n\n-- ");
+
+          int m;
+          int x=1;
+          int y=1;
+
+          for(int r=1;r<=n;r++){
+               printf("%d\t" ,r);
+          }
+
+          printf("\n\n");
+
+          for(int i=1;i<=n;i++){
+               printf("%d  ",x);
+               x++;
+                 for(int j=1;j<=n;j++){
+
+          m=i*j;
+                 printf("%d\t" ,m);
+
+      }
+         printf("\n\n");
+          }
+
+      }   
+
+
+
 
   return 0;
+
 }
