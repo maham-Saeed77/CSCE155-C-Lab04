@@ -23,15 +23,24 @@ int main(int argc, char **argv) {
   // the user will try to guess what this number is
   int number = (rand() % n) + 1;
 
-  // initialize the user's "guess" to be an invalid value
-  int guess = -10;
-  int numGuesses = 0;
+  
+  /*made by : Maham Saeed
+  Reg no : SP23-BSE-083*/
 
-  printf("Guess-A-Number Game!\n");
-  printf("Enter a number between 1 and %d\n", n);
+  printf("\nMade By : Maham Saeed\nreg no : SP23-BSE-083-2c\n\n");
 
-  //TODO: place your code here
+  printf(Guess-A-Number Game!\n\n"");
 
-  printf("Congratulations, you found it!  Number of guesses: %d\n", numGuesses);
-  return 0;
+  int guess;
+
+
+ while(1){
+
+ printf("\n\nEnter a number between 1 and %d : " , n);
+
+  scanf("%d ,&guess");
+
+  if(guess==number){
+   printf("\n\ncongratulations, you found it! Number of guesses: %d\n" ,number);
+   break;
 }
